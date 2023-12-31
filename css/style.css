@@ -433,3 +433,192 @@ left: 42.5%;
     text-decoration: none;
     color: #3EC1D5;
 }
+
+/* responsivo */
+
+@media(max-width: 768px) { */
+
+/* html geral */
+ .container {
+    padding: 20px 0;
+}
+
+
+/* slider */
+#mainSlider .carousel-inner, #mainSlider .carousel-item {
+    height: auto;
+}
+
+#mainSlider .carousel-inner h2 {
+    font-size : 28px;
+}
+
+#mainSlider .carousel-inner p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.carousel-caption {
+    left: 10%;
+    right: 10%;
+}
+
+/* about */
+#about-area img {
+    margin-top: 100px;
+}
+
+/* data */
+.circle-box div {
+    padding: 0 10px;
+}
+
+#data-area p {
+    font-size: 16px;
+}
+
+/* team */
+.card-title {
+    font-size: 14px;
+}
+
+.card-text {
+    font-size: 12px;
+}
+
+
+/* area de trabalho */
+#apply-area .apply-box {
+    padding: 50px 25px;
+}
+
+/* area das noticias */
+#news-area p {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#email-input{
+    width: 70%;
+}
+
+#call-area {
+    margin-top:30px
+}
+
+#call-area .container {
+    padding: 30px;
+}
+
+#call-area p, #call-area #call-btn {
+    font-size: 16px;
+}
+
+
+
+@media(max-width: 425px) {
+
+    /* slider */
+#mainSlider {
+    margin-top: 90px;
+}
+
+#mainSlider .carousel-caption {
+    top: 5%;
+}
+
+#mainSlider .carousel-caption h2 {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+#mainSlider .carousel-caption p {
+    display: none;
+}
+
+.carousel-caption .main-btn {
+    font-size: 14px;
+}
+
+/* about */
+.main-title {
+    font-size: 28px;
+}
+
+#about-area img {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+/* dados da empresa */
+.circle-box {
+    width: 50%;
+}
+
+/* colaboradores */
+#team-area .col-md-3 {
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.card-title {
+    font-size: 20px;
+}
+
+.card-text {
+    font-size: 16px;
+}
+
+/* area de trabalho */
+#apply-area {
+    height: auto;
+}
+
+#company-img {
+    display: none;
+}
+
+/* portifolio */
+#portifolio-area .filter-btn {
+    margin-bottom: 20px;
+}
+
+.project-box {
+    width: 50%;
+}
+
+/* area de noticias */
+#news-area .main-title {
+    font-size: 20px;
+}
+
+#news-area p {
+    font-size: 16px;
+}
+
+#email-input {
+    width: 80%;
+}
+
+ 
+/* area de orçamento */
+#call-area p, #call-area #call-btn {
+    font-size: 16px;
+    letter-spacing: 0;
+    margin: 0;
+    width: 50%;
+}
+
+/* contato */
+.contact-box {
+    border: none;
+    margin-bottom: 0;
+}
+
+
+
+
+}
+
+}
