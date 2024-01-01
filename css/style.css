@@ -1,5 +1,9 @@
 /* Gerais */
 
+#news-area .main-title:after {
+    display: none;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -279,6 +283,8 @@ left: 42.5%;
 
 /* area de noticias */
 
+
+
 #news-area {
     text-align: center;
     background-color: #f9f9f9;
@@ -436,7 +442,7 @@ left: 42.5%;
 
 /* responsivo */
 
-@media(max-width: 768px) { */
+@media(max-width: 1400px) { */
 
 /* html geral */
  .container {
@@ -517,7 +523,7 @@ left: 42.5%;
 
 
 
-@media(max-width: 425px) {
+@media(max-width: 770px) {
 
     /* slider */
 #mainSlider {
@@ -529,13 +535,10 @@ left: 42.5%;
 }
 
 #mainSlider .carousel-caption h2 {
-    font-size: 18px;
-    margin-bottom: 40px;
+    font-size: 25px;
+    margin-bottom: 10px;
 }
 
-#mainSlider .carousel-caption p {
-    display: none;
-}
 
 .carousel-caption .main-btn {
     font-size: 14px;
@@ -616,8 +619,168 @@ left: 42.5%;
     margin-bottom: 0;
 }
 
+@media(max-width: 500px) {
+
+    /* slider */
+#mainSlider {
+    margin-top: 90px;
+}
 
 
+#mainSlider .carousel-caption {
+    top: 5%;
+}
+
+#mainSlider .carousel-caption h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+#mainSlider .carousel-caption p {
+   font-size: 15px; 
+}
+
+.carousel-caption .main-btn {
+    font-size: 12px;
+}
+
+/* about */
+.main-title {
+    font-size: 28px;
+}
+
+#about-area img {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+/* dados da empresa */
+.circle-box {
+    width: 50%;
+}
+
+/* colaboradores */
+#team-area .col-md-3 {
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.card-title {
+    font-size: 20px;
+}
+
+.card-text {
+    font-size: 16px;
+}
+
+/* area de trabalho */
+#apply-area {
+    height: auto;
+}
+
+#company-img {
+    display: none;
+}
+
+/* portifolio */
+#portifolio-area .filter-btn {
+    margin-bottom: 20px;
+}
+
+.project-box {
+    width: 50%;
+}
+
+/* area de noticias */
+#news-area .main-title {
+    font-size: 20px;
+}
+
+#news-area p {
+    font-size: 16px;
+}
+
+#email-input {
+    width: 80%;
+}
+
+
+/* area de orçamento */
+#call-area p, #call-area #call-btn {
+    font-size: 16px;
+    letter-spacing: 0;
+    margin: 0;
+    width: 50%;
+}
+
+/* contato */
+.contact-box {
+    border: none;
+    margin-bottom: 0;
+}
+}
+
+@media(max-width: 537px) {    
+
+    
+#mainSlider .carousel-caption h2 {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+    
+    .carousel-caption .main-btn {
+        font-size: 8px;
+    }
+    
+    .carousel-indicators {
+        display: none;
+    }
+
+}
+@media(max-width: 400px) {
+
+.navbar-brand {
+    width: 80px;
+    font-size: 18px;
+}
+
+.navbar-brand #logo {
+    width: 60px;
+    margin-right: 10px;
+}
+
+    /* slider */
+#mainSlider {
+    margin-top: 75px;
+}
+
+#mainSlider .carousel-caption {
+    top: 5%;
+}
+
+#mainSlider .carousel-caption h2 {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+#mainSlider .carousel-caption p {
+    display: none;
+}
+
+.carousel-caption .main-btn {
+    font-size: 8px;
+}
+
+.carousel-indicators {
+    display: none;
+}
+
+@media(max-width: 300px){
+.main-title:after {
+        margin-top: 20px;
+    }
+}
+}
 
 }
 
